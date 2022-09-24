@@ -1,8 +1,10 @@
-
+import Model from "./model";
 
 function App() {
+
   return (
-    <div className="App">
+    <div>
+      <Model></Model>
     </div>
   );
 }
