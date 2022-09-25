@@ -6,7 +6,7 @@ source: https://sketchfab.com/3d-models/shiba-faef9fe5ace445e7b2989d1c1ece361c
 title: Shiba
 */
 
-import React, { useRef } from 'react'
+import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function Model(props) {
