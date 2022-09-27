@@ -32,29 +32,14 @@ loader.load('../assets/shiba/scene.gltf', function (gltf) {
   animate();
 })
 
-const ModelDiv = styled.div`
-  position: relative;
-`;
-
-const Introduction = styled.div`
-  font-size: 42px;
-  color : black;
-  position: absolute;
-  margin-top: 10%;
-  left: 10%;
-`;
-
 const Canvas = styled.div`
 `;
 
 
 function model() {
   return (
-    <ModelDiv>
-      <Introduction>ddddddd</Introduction>
-      <Canvas>
-      </Canvas>
-    </ModelDiv>
+    <Canvas>
+    </Canvas>
   );
 }
 

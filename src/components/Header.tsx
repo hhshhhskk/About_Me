@@ -8,14 +8,15 @@ const Category = styled.div`
     font-size: 33px;
 `;
 
-export function Header() {
+function Header() {
 
     return (
         <HeaderDiv>
             <Category>
-                하이하이하이
+                헤더 Div
             </Category>
         </HeaderDiv>
     );
 }
 
+export default Header;

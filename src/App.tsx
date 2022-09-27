@@ -1,13 +1,23 @@
-import Model from "./model";
-import { Header } from "./components/Header";
+import Header from "./components/Header";
+import Skill from "./components/Skill";
+import Project from "./components/Project";
+import styled from "styled-components";
+import AboutMe from "./components/AboutMe";
+
+const Wrapper = styled.div`
+  position: relative;
+`;
+
 
 function App() {
 
   return (
-    <div>
+    <Wrapper>
       <Header />
-      <Model></Model>
-    </div>
+      <AboutMe />
+      <Skill />
+      <Project />
+    </Wrapper>
   );
 }
 
