@@ -5,7 +5,7 @@ const AboutMeDiv = styled.div`
 background-color: blue;
 `;
 
-const Introduction = styled.div`
+const Address = styled.div`
   font-size: 22px;
   color : black;
   background-color: white;
@@ -17,13 +17,13 @@ const Introduction = styled.div`
 function AboutMe() {
     return (
         <AboutMeDiv>
-            <Introduction>
-                자기소개Div
+            <Address>
+                주소Div
                 <br />
-                안녕하세요.
+                깃헙
                 <br />
-                끊임없이 발전하는 개발자가 되고 싶은 신입 개발자 곽민성 입니다.
-            </Introduction>
+                블로그
+            </Address>
             <Model />
         </AboutMeDiv>
     );

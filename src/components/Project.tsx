@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 const ProjectDiv = styled.div`
-background-color: blue;
+    background-color: blue;
+    width: 100%;
+    height: 1000px;
 `;
 
 function Project() {

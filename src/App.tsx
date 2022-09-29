@@ -1,4 +1,4 @@
-import Header from "./components/Header";
+import Main from "./components/Main";
 import Skill from "./components/Skill";
 import Project from "./components/Project";
 import styled from "styled-components";
@@ -13,10 +13,10 @@ function App() {
 
   return (
     <Wrapper>
-      <Header />
-      <AboutMe />
+      <Main />
       <Skill />
       <Project />
+      <AboutMe />
     </Wrapper>
   );
 }

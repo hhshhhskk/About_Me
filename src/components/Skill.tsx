@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 const SkillDiv = styled.div`
-background-color: violet;
+  background-color: violet;
+  width: 100%;
+  height: 1000px;
 `;
 
 function Skill() {
